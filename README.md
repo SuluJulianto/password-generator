@@ -2,23 +2,6 @@
 
 This repository provides a secure and versatile password generator implemented in multiple programming languages. Below is an in-depth explanation of each version, categorized by password types:
 
-## Java
-
-### Overview
-The Java implementation utilizes the `PasswordGenerator` class, offering both default and parameterized constructors for flexibility. Passwords can be generated with symbols, without symbols, or with only numbers. The password generation involves characters, uppercase letters, digits, and symbols, with shuffling for enhanced randomness. Secure randomness is ensured through the `SecureRandom` class.
-
-### Constructors
-- **Default Constructor:** Sets default counts for characters, uppercase letters, digits, and symbols.
-- **Parameterized Constructor:** Enables users to specify counts during object creation.
-
-### Methods
-- **generatePassword():** Generates a password with symbols, characters, uppercase letters, digits, and shuffled for enhanced security.
-- **generatePasswordWithoutSymbols():** Creates a password without symbols.
-- **generatePasswordWithNumbersOnly():** Generates a password with exactly 6 digits.
-
-### Demonstration
-The `main` method demonstrates the generator's functionality in various scenarios.
-
 ## Python
 
 ### Overview
@@ -91,6 +74,24 @@ The C++ version adopts an object-oriented approach with the `PasswordGenerator` 
 
 ### Demonstration
 Examples in the main code block illustrate the simplicity and effectiveness of the C++ implementation.
+
+## Java
+
+### Overview
+The Java implementation utilizes the `PasswordGenerator` class, offering both default and parameterized constructors for flexibility. Passwords can be generated with symbols, without symbols, or with only numbers. The password generation involves characters, uppercase letters, digits, and symbols, with shuffling for enhanced randomness. Secure randomness is ensured through the `SecureRandom` class.
+
+### Constructors
+- **Default Constructor:** Sets default counts for characters, uppercase letters, digits, and symbols.
+- **Parameterized Constructor:** Enables users to specify counts during object creation.
+
+### Methods
+- **generatePassword():** Generates a password with symbols, characters, uppercase letters, digits, and shuffled for enhanced security.
+- **generatePasswordWithoutSymbols():** Creates a password without symbols.
+- **generatePasswordWithNumbersOnly():** Generates a password with exactly 6 digits.
+
+### Demonstration
+The `main` method demonstrates the generator's functionality in various scenarios.
+
 
 ## Golang
 
